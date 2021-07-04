@@ -1,0 +1,158 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+ul {
+    list-style: none;
+   }
+.navbar {
+    background:#ffffff;
+}
+.nav-link,
+.navbar-brand {
+    color: #000000;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.nav-item{
+    background: white;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.page-footer {
+    background-color: #EDEAE5 !important;
+    color: #ccc;
+    padding: 60px 0 30px;
+    margin-top: -50px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+.aboutMePic {
+    object-fit: cover;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 350px;
+}
+h1{
+    font-family: adobe-garamond-pro;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 400px;
+    color: black;
+}
+p{
+    color: rgba(23,23,23,.76);
+    font-family: proxima-nova;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.32px;
+    line-height: 27.2px;
+}
+.topBar{
+    background-image: url(images/Brushed_Concrete.png);
+}
+
+.barOver{
+        background: rgba(210, 83, 70,.8);
+        overflow: hidden;
+        height: 100%;
+        z-index: 2;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(40,56,120);
+  }
+  .separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+.navHead{
+    text-align: center;
+    font-family: proxima-nova;
+    font-size:30px;
+    font-weight:600;
+    letter-spacing:3.3px;
+    line-height:45px;
+    color: rgb(210, 83, 70);
+}
+.navCustom{
+    margin-left:20px;
+    margin-right:20px;
+}
+.navBut{
+    font-family: Andale Mono;
+    font-size:15px;
+    font-weight: 400;
+    letter-spacing: 1.35px;
+    line-height: 45px;
+}
+.headHr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* Glyph, by Harry Roberts */
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.icon{
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+h5{
+    text-align: center;
+}
+h2{
+    font-family: adobe-garamond-pro;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
