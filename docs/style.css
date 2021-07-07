@@ -49,7 +49,7 @@ h1{
     font-size: 40px;
     line-height: 60px;
     font-weight: 400px;
-    color: black;
+    color: #0A0D35;
 }
 p{
     color: rgba(23,23,23,.76);
@@ -64,7 +64,7 @@ p{
 }
 
 .barOver{
-        background: rgba(199, 66, 63, 0.8);
+        background: rgba(57, 116, 212, 0.8);
         overflow: hidden;
         height: 100%;
         z-index: 2;
@@ -95,7 +95,7 @@ p{
     font-weight:600;
     letter-spacing:3.3px;
     line-height:45px;
-    color:#C7423F;
+    color:#0A0D35;
 }
 .navCustom{
     margin-left:20px;
