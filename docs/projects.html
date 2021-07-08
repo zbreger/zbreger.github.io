@@ -85,6 +85,69 @@
                 </div>
             </div>
         </div>
+        <br/><br/><br/>
+        <div class = "container aboutSection">
+            <div class = "row">
+                <div class = "col-lg-8 aboutMe">
+                    <h1 class = "aboutHead">Projects</h1>
+                    <br />
+                    <p>To develop my skills and put my existing skills to good use, I have worked on a number of projects. 
+
+                    </p>
+                </div>
+                <div class = "col-lg-4 ">
+                    <img class = "aboutMePic" src = "images/dailyM.jpeg">
+                </div>
+            </div>
+        </div>
+        <br /><br /><br />
+        <div class = "container"><hr class = "style-seven"></div>
+        <div class = "container">
+            <div class = "concierge row" style = "padding-bottom: 100px">
+                <div class = "col-lg-8">
+                    <div class = "slideshow">
+                        <div class = "slide fade">
+                            <img src = "images/homeSlide.png" width = "100%" style = "height: 350px; object-fit: cover;">
+                        </div>
+                        <div class = "slide fade">
+                            <img src = "images/schedMap.png" width = "100%" style = "height: 350px; object-fit: cover;">
+                        </div>
+                        <div class = "slide fade">
+                            <img src = "images/overview.png" width = "100%" style = "height: 350px; object-fit: cover;">
+                        </div>
+                        <div class = "slide fade">
+                            <img src = "images/ic.png" width = "100%" style = "height: 350px; object-fit: cover;">
+                        </div>
+                        <div class = "slide fade">
+                            <img src = "images/form.png" width = "100%" style = "height: 350px; object-fit: cover;">
+                        </div>
+                        <div class = "slide fade">
+                            <img src = "images/apply.png" width = "100%" style = "height: 350px; object-fit: cover;">
+                        </div>
+                        <a class = "slidePrev" onclick = "slideSelect(-1)">&#10094;</a>
+                        <a class = "slideNext" onclick = "slideSelect(1)">&#10095;</a>
+                    </div>
+                    <br /> <br />
+                    <div class = "slideCircles text-center">
+                        <span class = "dot" onclick = "curSlide(1)"></span>
+                        <span class = "dot" onclick = "curSlide(2)"></span>
+                        <span class = "dot" onclick = "curSlide(3)"></span>
+                        <span class = "dot" onclick = "curSlide(4)"></span>
+                        <span class = "dot" onclick = "curSlide(5)"></span>
+                        <span class = "dot" onclick = "curSlide(6)"></span>
+                    </div>
+                </div>
+                <div class = "col-lg-4">
+                    <div class = "conciergeDesc">
+                        <h4 style = "font-family:adobe-garamond-pro; text-align: center;">Concierge Health Care Website</h4>
+                        <p>Fullstack developed a website for a Chicago-based concierge care service. Utilized 
+                            Flask and Bootstrap as frameworks, JavaScript for some backend functionality, and 
+                            Python for the contact form.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     <footer class="page-footer">
         <div class="container">
             <div class = "row" style = "margin-left:300px;margin-right:300px">
@@ -103,5 +166,6 @@
         <div class="footer-copyright text-center">© Copyright 2021 Zach Breger. All rights reserved</div>
     </footer>
     
+    <script src = "slides.js"></script>
 </body>
 </html>
