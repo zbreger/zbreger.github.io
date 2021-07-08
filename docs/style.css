@@ -51,6 +51,10 @@ h1{
     font-weight: 400px;
     color: #0A0D35;
 }
+h3{
+    font-family: adobe-garamond-pro;
+    color: #0A0D35;
+}
 p{
     color: rgba(23,23,23,.76);
     font-family: proxima-nova;
