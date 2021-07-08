@@ -247,11 +247,11 @@ form select {
   .slidePrev, .slideNext {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 60%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: #2738A1;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
