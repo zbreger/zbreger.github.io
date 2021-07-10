@@ -331,8 +331,11 @@ form select {
     width: 500px;
     height: 250px;
     position: absolute;
+    
     left: 450px;
     top: 250px;
+    text-align: center;
+    vertical-align: middle;
     visibility: hidden;
     border: none;
     padding: none;
