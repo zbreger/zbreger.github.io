@@ -24,7 +24,6 @@ function showSlides(n){
     if(n < 1){
         slideIndex = slides.length;
     }
-console.log(slideIndex);
     //Reset slides
     for(index = 0; index < slides.length; index++){
         slides[index].style.display = "none";
