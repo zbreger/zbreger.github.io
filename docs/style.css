@@ -324,43 +324,123 @@ form select {
     from {opacity: .4}
     to {opacity: 1}
   }
+  @media only screen and (min-width: 601px) {
+    .card{
+        /* Add shadows to create the "card" effect */
+        box-shadow: 12px 12px 2px 1px rgba(0,0,0,0.2);
+        width: 500px;
+        height: 250px;
+        position: absolute;
+        
+        left: 450px;
+        top: 250px;
+        text-align: center;
+        vertical-align: middle;
+        visibility: hidden;
+        border: none;
+        padding: none;
+    }
 
-  .card{
-    /* Add shadows to create the "card" effect */
-    box-shadow: 12px 12px 2px 1px rgba(0,0,0,0.2);
-    width: 500px;
-    height: 250px;
-    position: absolute;
+    .deck{
+        background-color: transparent;
+        position: relative;
+    }
+
+    .leftCard{
+        font-family: Helvetica;
+        font-size: 6px;
+    }
+
+    .arrow{
+        font-size: 50px;
+        visibility: visible;
+    }
+    .arrowText{
+
+        font-size: 30px;
+        visibility: visible;
+    }
+
+    .welcBut{
+        visibility: hidden;
+    }
+
+    .card1{
+        background-color: #00284B; height: 250px; margin-top: -1px; position: absolute; left: 300px;
+    }
+    .card2{
+        background-color: #0B0E36; height: 250px; margin-top: -1px; position: absolute; left: 300px;
+    }
+    .card3{
+        background-color: white; height: 250px; margin-top: -1px; position: absolute; left: 300px;
+    }
+    .card4{
+        background-color: #576793; height: 250px; margin-top: -1px; position: absolute; left: 300px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .card{
+        /* Add shadows to create the "card" effect */
+        box-shadow: 12px 12px 2px 1px rgba(0,0,0,0.2);
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        
+        left: 100px;
+        top: 250px;
+        text-align: center;
+        vertical-align: middle;
+        visibility: hidden !important;
+        border: none;
+        padding: none;
+      }
+    .card1{
+        background-color: white; 
+        height: 150px; 
+        margin-top: -1px;
+         position: absolute; 
+         left: 300px;
+        visibility: hidden;
+    }
+    .card2{
+        visibility: hidden; background-color: #0B0E36; height: 250px; margin-top: -1px; position: absolute; left: 300px;
+    }
+    .card3{
+        visibility: hidden; background-color: white; height: 250px; margin-top: -1px; position: absolute; left: 300px;
+    }
+    .card4{
+        visibility: hidden; background-color: #576793; height: 250px; margin-top: -1px; position: absolute; left: 300px;
+    }
+      .deck{
+          background-color: transparent;
+          position: relative;
+      }
     
-    left: 450px;
-    top: 250px;
-    text-align: center;
-    vertical-align: middle;
-    visibility: hidden;
-    border: none;
-    padding: none;
+      .leftCard{
+        font-family: Helvetica;
+        font-size: 6px;
+      }
+    
+      .arrow{
+          font-size: 50px;
+          visibility: hidden;
+      }
+      .arrowText{
+    
+        font-size: 30px;
+        visibility: hidden ;
+      }
+      .welcBut{
+        visibility: visible;
+    }
   }
 
-  .deck{
-      background-color: transparent;
-      position: relative;
-  }
+  /* Gradient color1 - color2 - color1 */
 
-  .leftCard{
-    font-family: Helvetica;
-    font-size: 6px;
-  }
+/* Single-direction drop shadow */
 
-  .arrow{
-      font-size: 50px;
-      visibility: visible;
-  }
-  .arrowText{
-
-    font-size: 30px;
-    visibility: visible;
-  }
-
-  .welcBut{
-    visibility: hidden;
-  }
+hr.style-four {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
