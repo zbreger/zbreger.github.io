@@ -9,7 +9,7 @@ function cardFlip(){
         translateX: 1000,
         translateY: -500,
         rotate: '1turn',
-        duration: 10000
+        duration: 20000
       });
 
       //Make the card flip from the top rather than bottom

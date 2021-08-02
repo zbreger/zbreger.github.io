@@ -1,118 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Zach Breger</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
-        <link rel="icon" href="images/icon1.png">
-        <link rel = "stylesheet" href = "style.css">
-        <link rel="stylesheet" href=
-"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  
-    <script src=
-"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+<head>
+    <title>Zach Breger</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="icon" href="images/icon1.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
-  
-    <script src=
-"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
     </script>
-  
-    <script src=
-"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
     </script>
 </head>
-<body style = "background-color: #8D5536; background-repeat: no-repeat; background-position: center; height: 760px; background-size: cover; overflow-x: hidden; overflow-y: hidden; width: 100%">
-    <div class = "deck">
-    <!--Michigan Student-->
-    <div class = "card" onclick = "cardFlip()" style = "visibility: visible;">
-        <div class = "container">
-            <div class = "row">
-            <div class = "col col-sm-7 leftCard">
-                <div class = "container" style = "padding-right: 50px;">
-                    <br /><br /><br /><br /><br /><br /><br /><br /><br />
-                    <p style = "font-size:15px; margin-bottom: -10px; font-weight: bold; text-align: right;">ZACHARY BREGER</p>
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align:right;">Computer Science Student</p>
-                    <br />
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">224-250-7507</p>
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">201bregerz@gmail.com</p>
-                </div>
-            </div>
-                <div class = "col col-sm-5 rightCard text-center" style = "background-color: #00284B; height: 250px; margin-top: -1px; position: absolute; left: 300px;">
-                    <img src = "images/michLogo.png" width = "100px" height = "100px" style = "position: absolute; left: 55px;top: 60px;">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class = "card" onclick = "cardFlip()" style = "margin-top: -250px;">
-        <div class = "container">
-            <div class = "row">
-            <div class = "col col-sm-7 leftCard">
-                <div class = "container" style = "padding-right: 50px;">
-                    <br /><br /><br /><br /><br /><br /><br /><br /><br />
-                    <p style = "font-size:15px; margin-bottom: -10px; font-weight: bold; text-align: right;">ZACHARY BREGER</p>
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align:right;">Data Scientist</p>
-                    <br />
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">224-250-7507</p>
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">201bregerz@gmail.com</p>
-                </div>
-            </div>
-                <div class = "col col-sm-5 rightCard text-center" style = "background-color: #0B0E36; height: 250px; margin-top: -1px; position: absolute; left: 300px;">
-                    <img src = "images/dailyM.jpeg" width = "100px" height = "100px" style = "position: absolute; left: 55px;top: 60px;">
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class = "card" onclick = "cardFlip();showBut();" style = "margin-top: -250px;">
-        <div class = "container">
-            <div class = "row">
-            <div class = "col col-sm-7 leftCard">
-                <div class = "container" style = "padding-right: 50px;">
-                    <br /><br /><br /><br /><br /><br /><br /><br /><br />
-                    <p style = "font-size:15px; margin-bottom: -10px; font-weight: bold; text-align: right;">ZACHARY BREGER</p>
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align:right;">Software Engineer</p>
-                    <br />
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">224-250-7507</p>
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">201bregerz@gmail.com</p>
-                </div>
-            </div>
-                <div class = "col col-sm-5 rightCard text-center" style = "background-color: white; height: 250px; margin-top: -1px; position: absolute; left: 300px;">
-                    <img src = "images/concierge.png" width = "100px" height = "100px" style = "position: absolute; left: 55px;top: 60px;">
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class = "card" style = "margin-top: -250px;">
-        <div class = "container">
-            <div class = "row">
-            <div class = "col col-sm-7 leftCard">
-                <div class = "container" style = "padding-right: 50px">
-                    <br /><br /><br /><br /><br /><br /><br /><br /><br />
-                    <p style = "font-size:15px; margin-bottom: -10px; font-weight: bold; text-align: right;">ZACHARY BREGER</p>
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align:right;">Dedicated Employee</p>
-                    <br />
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">224-250-7507</p>
-                    <p style = "font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">201bregerz@gmail.com</p>
+<body class="container"
+    style="background-color: #8D5536; background-repeat: no-repeat; background-position: center; height: 760px; background-size: cover; overflow-x: hidden; overflow-y: hidden; width: 100%; margin-left:40px;">
+    <div class="deck">
+        <!--Michigan Student-->
+        <div class="card row" onclick="cardFlip()" style="visibility: visible; margin-left: 20px;">
+            <div class="col col-sm-7 leftCard">
+                <div class="row" style="display: block; width: 290px; padding-right: 50px;">
+                    <div class="col">
+                        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        <p style="font-size:15px; margin-bottom: -10px; font-weight: bold; text-align: right;">ZACHARY
+                            BREGER</p>
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align:right;">Computer
+                            Science Student</p>
+                        <br />
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">224-250-7507
+                        </p>
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">
+                            201bregerz@gmail.com</p>
+                    </div>
                 </div>
             </div>
-                <div class = "col col-sm-5 rightCard text-center" style = "background-color: #576793; height: 250px; margin-top: -1px; position: absolute; left: 300px;">
-                    <p style = "color: white; position:absolute; top: 100px; left: 30px;">Your company here...</p>
+            <div class="col col-sm-5 rightCard text-center"
+                style="background-color: #00284B; height: 250px; width: 210px; margin-top: -1px; position: absolute; left: 300px;">
+                <img src="images/michLogo.png" width="100px" height="100px"
+                    style="position: absolute; left: 55px;top: 60px;">
+            </div>
+        </div>
+        <div class="card" onclick="cardFlip()" style="margin-left: 20px; margin-top: -250px;">
+            <div class="col col-sm-7 leftCard">
+                <div class="row" style="display: block; width: 290px; padding-right: 50px;">
+                    <div class="col"> <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        <p style="font-size:15px; margin-bottom: -10px; font-weight: bold; text-align: right;">ZACHARY
+                            BREGER</p>
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align:right;">Data
+                            Scientist</p>
+                        <br />
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">224-250-7507
+                        </p>
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">
+                            201bregerz@gmail.com</p>
+                    </div>
                 </div>
+            </div>
+            <div class="col col-sm-5 rightCard text-center"
+                style="background-color: #0B0E36; height: 250px;  width: 210px; margin-top: -1px; position: absolute; left: 300px;">
+                <img src="images/dailyM.jpeg" width="100px" height="100px"
+                    style="position: absolute; left: 55px;top: 60px;">
+            </div>
+        </div>
+
+        <div class="card row" onclick="cardFlip();showBut();" style="margin-left: 20px; margin-top: -250px;">
+            <div class="col col-sm-7 leftCard">
+                <div class="row" style="display: block; width: 290px; padding-right: 50px;">
+                    <div class="col">
+                        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        <p style="font-size:15px; margin-bottom: -10px; font-weight: bold; text-align: right;">
+                            ZACHARY BREGER</p>
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align:right;">Software
+                            Engineer</p>
+                        <br />
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">
+                            224-250-7507</p>
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">
+                            201bregerz@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-5 rightCard text-center"
+                style="background-color: white; height: 250px; margin-top: -1px; position: absolute; left: 300px;">
+                <img src="images/concierge.png" width="100px" height="100px"
+                    style="position: absolute; left: 55px;top: 60px;">
+            </div>
+        </div>
+
+        <div class="card row"  style="margin-left: 20px; margin-top: -250px;">
+            <div class="col col-sm-7 leftCard">
+                <div class="row" style="display: block; width: 290px; padding-right: 50px;">
+                    <div class="col">
+                        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        <p style="font-size:15px; margin-bottom: -10px; font-weight: bold; text-align: right;">
+                            ZACHARY BREGER</p>
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align:right;">Dedicated
+                            Employee</p>
+                        <br />
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">
+                            224-250-7507</p>
+                        <p style="font-size:12px; margin-bottom: -10px; color: #808080; text-align: right;">
+                            201bregerz@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-5 rightCard text-center"
+                style="background-color: #576793; height: 250px; margin-top: -1px; position: absolute; left: 300px;">
+                <p style="color: white; position:absolute; top: 100px; left: 30px;">Your company here...</p>
             </div>
         </div>
     </div>
-</div>
-<div class = "welcomeButtons" style = "position: absolute; top: 700px; left: 510px;">
-    <a href = "about.html"><button type="button" class="btn btn-success welcBut" style = "margin-right: 10px;">About</button></a>
-    <a href = "projects.html"><button type="button" class="btn btn-success welcBut" style = "margin-right: 5px;">Projects</button></a>
-    <a href = "viz.html"><button type="button" class="btn btn-success welcBut" style = "margin-left: 5px;">Visualizations</button></a>
-    <a href = "contact.html"><button type="button" class="btn btn-success welcBut" style = "margin-left: 10px;">Contact</button></a>
-</div>
-<div style = "position: absolute; left: 380px; top: 300px;"><p class = "arrow">&#x2192;</p></div>
-<div style = "position: absolute; left: 230px; top: 300px;"><p class = "arrowText">Click Here!</p></div>
-<script src="anime.min.js"></script>
-<script src = "welcome.js"></script>
+    <div class="welcomeButtons" style="position: absolute;left: 30%;top: 70%;">
+        <a href="about.html"><button type="button" class="btn btn-success welcBut"
+                style="margin-right: 10px;">About</button></a>
+        <a href="projects.html"><button type="button" class="btn btn-success welcBut"
+                style="margin-right: 5px;">Projects</button></a>
+        <a href="viz.html"><button type="button" class="btn btn-success welcBut"
+                style="margin-left: 5px;">Visualizations</button></a>
+        <a href="contact.html"><button type="button" class="btn btn-success welcBut"
+                style="margin-left: 10px;">Contact</button></a>
+    </div>
+    <div class = "arrow" style="position: absolute; left: 275px; top: 450px;">
+        <img src="images/clickIcon.png" width="30px" height="30px">
+    </div>
+    <script src="anime.min.js"></script>
+    <script src="welcome.js"></script>
 </body>
+
 </html>
