@@ -5,8 +5,14 @@ function cardFlip(){
      console.log("card" + i.toString())
     anime({
         targets: document.getElementsByClassName("card")[i - 1],
+        translateX:-200,
+        translateY: 200,
+        duration:1
+      });
+      anime({
+        targets: document.getElementsByClassName("card")[i - 1],
         loop: false,
-        translateX: 1000,
+        translateX: 500,
         translateY: -500,
         rotate: '1turn',
         duration: 20000
